@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+/*Write a program that creates one random number between 60 and 500
+ *  to represent the area of a square. Calculate and display its 
+ *  side length.
+ */
+public class CalculateSquare {
+
+	public static void main(String[] args) {
+		
+		Scanner myInput = new Scanner (System.in);
+		System.out.println("Enter a number.");
+		
+		int num = myInput.nextInt();
+		
+		System.out.println("The square of " + num + " is " + num*num);
+
+		myInput.close();
+	}
+
+}
